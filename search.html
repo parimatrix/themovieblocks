@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Search</title>
+	<link rel="stylesheet" type="text/css" href="search.css">
+</head>
+<body>
+    <header>
+		<div id="nav">
+			<h1> The Movie Blocks</h1>
+			<ul>
+				<a href="home.html"><li>My Feed</li> </a>
+				<a href="search.html"><li>Search</li> </a>
+				<a href="index.html"><li>Discover</li> </a>
+			</ul>
+		</div>
+	</header>
+    <center>
+        <h1 style="font-size : 3.5em">Search For A Movie<br></h1>
+        <hr width = "200" size="5" color="#75C74E">
+        
+        <input type = "text" id="inpval">
+        <button id="submit"> Search</button>
+    </center>
+    
+    <div id="output">
+        <!--<img src = "sk1.png">-->
+        <div id="details">
+            <p id="title"></p>
+            <p id="rating"><span>Rating: </span></p>
+            <p id = "genre" class="left"><span>Genre: </span></p>
+            <p id = "overview" class="left">Overview: </p>
+            <p id="date" class="left"><span>Release Date: </span></p> 
+        </div>
+    </div>
+    
+    <div id="similar">
+        <h1>Similar Movies</h1>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

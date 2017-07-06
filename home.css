@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+            padding: 0;
+            padding-bottom: 50px; 
+            margin: 0;
+            background: #171717;
+            font-family: 'Montserrat', cursive;
+        }
+        #output {
+            margin: auto;
+            vertical-align: top;
+            text-align: center;
+        }
+        .movie_box {
+            overflow: hidden;
+            vertical-align: top;
+            cursor: pointer;
+            width: 200px;
+            height: 290px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            background-size: cover;
+            color: white;
+            display: inline-block;
+            border: 5px solid white;
+            transition: all .5s;
+        }
+        .movie_box:hover {
+            border: 5px solid #75C74E;
+        }
+        .inner_box{
+            transition: all .5s;
+            opacity: 0;
+            vertical-align: top;
+            background: rgba(0,0,0,.8);
+            height: 100%;
+            color: white;
+            margin-top: -15px;
+            padding-top: 50px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .inner_box li {
+            font-size: 1.5em;
+            vertical-align: top;
+            list-style: none;
+        }
+        .rate {
+            color : #75C74E;
+            font-size: 2em;
+        }
+        .movie_box:hover .inner_box {
+            opacity: 1;
+        }
+#nav {
+	font-family: 'Montserrat', cursive;
+	min-height: 70px;
+	overflow: hidden;
+	z-index: 10;
+	vertical-align: middle;
+	background: #0a0a0a;
+	color: white;
+	font-size: .7em;
+	width: 100%;
+	hdeight: 15%;
+}
+ h1 {
+    color: #75C74E;
+}
+#nav h1 {
+    cursor: pointer;
+	margin-top: 30px;
+	margin-left: 30px;
+	display: inline-block;
+	color: #75C74E;
+	
+}
+#nav ul {
+    margin-top: 20px;
+	font-size: 1.3em;
+	vertical-align: middle;
+	float: right;
+	display: inline;
+	list-style: none;
+}
+#nav ul li {
+	cursor: pointer;
+	padding: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 40px;
+	margin-right: 40px;
+	display: inline-block;
+	
+}
+#nav a {
+    font-size: 1.3em;
+	color: #919091;
+	text-decoration: none;
+    -webkit-transition: all 0.3s ;
+}
+        #nav a:hover {
+            color: white;
+        }
